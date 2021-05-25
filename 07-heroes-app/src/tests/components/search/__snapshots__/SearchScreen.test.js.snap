@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en <SearchScreen /> debe de mostrar un error si no se muestra el hero 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="greendwdwd"
+        />
+        <button
+          className="btn btn-outline-primary mt-3 w-100"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <p
+        className="alert alert-danger"
+      >
+        The hero 
+        <b>
+          greendwdwd
+        </b>
+         doesn't exists
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pruebas en <SearchScreen /> debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-outline-primary mt-3 w-100"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <p
+        className="alert alert-info"
+      >
+        Search a Hero
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`pruebas en <SearchScreen /> debe de recoger el param por la URL y mostrarlo en el input 1`] = `
+<div>
+  <h1>
+    SearchScreen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+        Search Form
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="green"
+        />
+        <button
+          className="btn btn-outline-primary mt-3 w-100"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Results
+      </h4>
+      <hr />
+      <div
+        className="card ms-3"
+        style={
+          Object {
+            "margin": "0 auto",
+            "maxWidth": 340,
+          }
+        }
+      >
+        <div
+          className="row g-0"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="Green Lantern"
+              className="card-img"
+              src="./assets/heroes/dc-green.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                Green Lantern
+              </h5>
+              <p
+                className="card-text"
+              >
+                Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+              </p>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  All-American Comics #16
+                </small>
+              </p>
+              <a
+                href="/hero/dc-green"
+                onClick={[Function]}
+              >
+                Más...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="card ms-3"
+        style={
+          Object {
+            "margin": "0 auto",
+            "maxWidth": 340,
+          }
+        }
+      >
+        <div
+          className="row g-0"
+        >
+          <div
+            className="col-md-4"
+          >
+            <img
+              alt="Green Arrow"
+              className="card-img"
+              src="./assets/heroes/dc-arrow.jpg"
+            />
+          </div>
+          <div
+            className="col-md-8"
+          >
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                Green Arrow
+              </h5>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  More Fun Comics #73
+                </small>
+              </p>
+              <a
+                href="/hero/dc-arrow"
+                onClick={[Function]}
+              >
+                Más...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
